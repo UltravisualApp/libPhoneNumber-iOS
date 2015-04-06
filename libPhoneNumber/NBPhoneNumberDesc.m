@@ -17,9 +17,9 @@
     NSString *exp = nil;
     
     if (data != nil && [data isKindOfClass:[NSArray class]]) {
-        /* 2 */ nnp = [data safeObjectAtIndex:2];
-        /* 3 */ pnp = [data safeObjectAtIndex:3];
-        /* 6 */ exp = [data safeObjectAtIndex:6];
+        /* 2 */ nnp = [data nb_safeObjectAtIndex:2];
+        /* 3 */ pnp = [data nb_safeObjectAtIndex:3];
+        /* 6 */ exp = [data nb_safeObjectAtIndex:6];
     }
     
     return [self initWithNationalNumberPattern:nnp withPossibleNumberPattern:pnp withExample:exp];

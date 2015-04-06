@@ -10,6 +10,6 @@
 
 @interface NSArray (NBAdditions)
 
-- (id)safeObjectAtIndex:(NSUInteger)index;
+- (id)nb_safeObjectAtIndex:(NSUInteger)index;
 
 @end

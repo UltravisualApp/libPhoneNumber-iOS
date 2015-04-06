@@ -10,7 +10,7 @@
 
 @implementation NSArray (NBAdditions)
 
-- (id)safeObjectAtIndex:(NSUInteger)index
+- (id)nb_safeObjectAtIndex:(NSUInteger)index
 {
     @synchronized(self)
     {
